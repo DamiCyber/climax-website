@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hamburger{
+  display: none;
+}
+.mark{
+  background-color: transparent !important;
+}
+.back{
+    background-image:linear-gradient( rgba(9, 9, 9, 0.671),rgba(22, 21, 21, 0.473)), url(./images/college-students-g0f401358c_1920.jpg) ;
+    background-position: center;
+    height: 100vh ;
+    background-size: cover;
+}
+
+.about{
+    color: white;
+}
+.us{
+    color: white;
+    font-weight: 800;
+    line-height:25px;
+    word-spacing:4px;
+}
+@media(max-width:800px){
+  .container-fluid{
+    padding-left:30px!important;
+}
+  .bg-body-tertiary{
+    background-color: transparent !important; 
+    --bs-bg-opacity:0 !important; 
+    /* display: none; */
+}
+  .hamburger{
+    display:block;
+  }
+  .back{
+    height:190vh;
+    line-height:25px;
+    word-spacing:4px;
+  }
+  .about{
+    padding-top: 20px;
+    padding-bottom: 8px;
+  }
+}
+@media(max-width:500px){
+  .hamburger{
+    display:block;
+  }
+  .back{
+    height:230vh;
+    line-height:25px;
+    word-spacing:4px;
+  }
+  .about{
+    padding-top: 20px;
+    padding-bottom: 8px;
+  }
+}
+@media(max-width:400px){
+  .hamburger{
+    display:block;
+  }
+  .back{
+    height:300vh;
+    line-height:25px;
+    word-spacing:4px;
+  }
+  .about{
+    padding-top: 20px;
+    padding-bottom: 8px;
+  }
+}
+@media(max-width:400px){
+  .hamburger{
+    display:block;
+  }
+  .back{
+    height:300vh;
+    line-height:25px;
+    word-spacing:4px;
+  }
+  .about{
+    padding-top: 20px;
+    padding-bottom: 8px;
+  }
+}
+@media(max-width:300px){
+  .hamburger{
+    display:block;
+  }
+  .back{
+    height:350vh;
+    line-height:25px;
+    word-spacing:4px;
+  }
+  .about{
+    padding-top: 20px;
+    padding-bottom: 8px;
+  }
+}

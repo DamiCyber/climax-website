@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.images img{
+    padding-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 280px;
+}
+.cover{
+    border-radius: 10px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.view a{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgb(22, 22, 66) ;
+    border-radius: 10px;
+}
+.img-tutors img{
+    width:230px;
+    border-radius: 8px;
+    border: 2px solid rgb(22, 22, 66);
+}
+.img-tutors{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.student1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.student1 img{
+    width:230px;
+    border-radius: 8px;
+    border: 2px solid rgb(22, 22, 66);
+}
+.student2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    align-items: center;
+}
+.student2 img{
+    width:230px;
+    border-radius: 8px;
+    border: 2px solid rgb(22, 22, 66);
+}
+.secertary{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+     border-radius: 10px;
+}
+.img-secertary1{
+    padding-top: 10px;
+padding-left: 60px;
+}
+.img-secertary1 img{
+border-radius: 50%;
+width: 193px;
+height: 205px;
+border: 2px solid rgb(22, 22, 66);
+}
+.img-secertary2{
+    padding-top: 10px;
+padding-right: 300px;
+}
+.img-secertary2 img{
+
+    height: 205px;
+    border-radius: 50%;
+    width: 193px;
+    border: 2px solid rgb(22, 22, 66);
+}
+.gallery-text{
+    font-weight: 700;
+    color: rgb(22, 22, 66);
+    font-size: xx-large;
+    padding-left: 600px;
+    padding-bottom: 18px;
+}
+@media(max-width:996px){
+    .gallery-text{
+        display: none;
+    }
+    .img-tutors{
+        flex-direction: column;
+    }
+    .student1{
+        flex-direction: column;
+    }
+    .student2{
+        flex-direction: column;
+    }
+    .secertary{
+        flex-direction: column;
+    }
+    .img-secertary2{
+        padding-right: 0;
+        padding-left: 25px;
+    }
+    .cover{
+        flex-direction: column;
+    }
+}
+@media(max-width:800px){
+
+    .img-tutors{
+        flex-direction: column;
+    }
+    .student1{
+        flex-direction: column;
+    }
+    .student2{
+        flex-direction: column;
+    }
+    .secertary{
+        flex-direction: column;
+    }
+    .img-secertary2{
+        padding-right: 0;
+        padding-left: 25px;
+    }
+    .cover{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back{
+    background-image:linear-gradient( rgba(9, 9, 9, 0.671),rgba(22, 21, 21, 0.473)), url(./images/college-students-g0f401358c_1920.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top:30px;
+  
+}
+.cover{
+   word-spacing:9px;
+   display:flex;
+   justify-content:space-between;
+   align-items: center;
+}
+.cover2{
+   word-spacing:9px;
+   display:flex;
+   justify-content:space-between;
+   align-items: center;
+}
+.postutmecover{
+    padding: 0 10px;
+}
+.postutmecover img{
+border-radius: 10px;
+padding-top: 20px;
+}
+.footer{
+    padding-top: 10px;
+    padding-left:12px;
+}
+.text-pro1{
+    padding-bottom:14px;
+}
+.text-pro2{
+    padding-bottom:14px;
+}
+.text-pro3{
+    padding-bottom:14px;
+}
+.text-pro3{
+    padding-bottom:14px;
+}
+.text-pro4{
+    padding-bottom:14px;
+}
+.text-pro5{
+    padding-bottom:14px;
+}
+@media(max-width:800px){
+    .back{
+        height: 350vh;
+    }
+    .program{
+        padding-left: 100px;
+    }
+    .cover{
+        flex-direction: column;
+    }
+    .cover2{
+        flex-direction: column;
+    }
+    .text{
+        padding-top:30px;
+    }
+}
+@media(max-width:500px){
+    .back{
+        height: 350vh;
+    }
+    .program{
+        padding-left: 100px;
+    }
+    .cover{
+        flex-direction: column;
+    }
+    .cover2{
+        flex-direction: column;
+    }
+    .text{
+        padding-top:30px;
+    }
+}
+@media(max-width:300px){
+    .body{
+        overflow: hidden;
+    }
+    .back{
+        height: 450vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    .text{
+        padding-top: 80px;
+    }
+    .program{
+        padding-left: 100px;
+    }
+    .cover{
+        flex-direction: column;
+    }
+    .cover img{
+      width:100px;
+    }
+    .cover2{
+        flex-direction: column;
+    }
+    .text-pro1{
+        font-size:small;
+        padding-top:30px;
+    }
+    .postutmecover img{
+       width: 100px;
+    }
+    h4{
+        font-size: smaller;
+        width:5%;
+    }
+    p{
+        font-size: smaller;
+        width:5%;
+    }
+}

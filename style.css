@@ -1,0 +1,578 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    padding-left: 18px;
+}
+.background{
+    background-image:linear-gradient( rgba(9, 9, 9, 0.671),rgba(22, 21, 21, 0.473)), url(./images/college-students-g0f401358c_1920.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.properties{
+    padding-right: 24px;
+}
+ul li{
+    display: inline-block;
+    padding: 0 10px;
+    line-height:100px;
+}
+
+ul li a{
+    font-size: large;
+    font-weight: 800;
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+}
+.mark{
+    background-color: transparent !important;
+}
+.bg-body-tertiary{
+    background-color: transparent !important; 
+    --bs-bg-opacity:0 !important; 
+    display: none;
+}
+.offcanvas-title{
+    display: none;
+}
+.container-fluid{
+    color: white !important;
+    padding-top: 20px !important;
+    padding-left: 900px !important;
+}
+.navbar-brand{
+   display: none;
+}
+.hamburger{
+    display: none;
+}
+ul li a:hover{
+    border-top:2px solid  rgb(20, 20, 59);
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar:hover{
+    background-color:rgba(0, 0, 0, 0.486);
+}
+.climax{
+ color: aliceblue;
+ padding-top: 195px;
+ padding-left:270px;
+ font-weight: 900;
+ font-size: xx-large;
+}
+.logo2{
+    padding-left:250px;
+}
+.the-box{
+    padding-bottom:30px;
+    padding-top: 20px;
+    padding-left:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:10px;
+}
+.box1{
+    font-size: xx-large;
+    padding-bottom:30px;
+    background-color:white;
+    border: 1px solid black;
+    width: 90%;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.52);
+-moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.52);
+}
+.vision{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight:300;
+    word-spacing: 4px;
+    
+}
+.carousel-item .active img{
+ height: 200px;
+}
+.mission1{
+    padding-left: 50px;
+    padding-top:8px;
+    font-weight:300;
+    word-spacing: 4px;
+    font-size: x-large;
+}
+.mission2{
+    padding-top:14px;
+    font-weight:300;
+    word-spacing: 4px;
+    font-size: x-large;
+}
+.mission3{
+    padding-top:8px;
+    font-weight:300;
+    word-spacing: 4px;
+    font-size: x-large;
+}
+h3{
+    padding-left: 120px;
+}
+p{
+    font-size:large;
+}
+ .border-cover{
+    padding-left: 230px;
+    width: 960px;
+ padding-top: 50px;
+ padding-bottom: 25px;
+}
+.border{
+    border: 0.5px solid black;
+}
+.the-pioneers1{
+    font-weight: 700;
+    color: rgb(22, 22, 66);
+    font-size: xx-large;
+    padding-left: 500px;
+    padding-bottom: 18px;
+}
+.pioneertext{
+    padding-top: 3px;
+    padding-left: 40px;
+}
+.pioneer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pioneer img{
+    padding-top: 0%;
+    height: 180px;
+    width:173px;
+    border-radius: 50%;
+    border: 2px solid rgb(22, 22, 66);
+}
+
+.cap{
+    padding-top:0px;
+    padding-right: 130px;
+    height: 10px;
+}
+
+.map{
+    padding-top:30px;
+    padding-left:30px;
+}
+.footer-text{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer img{
+    width:40px;
+}
+.footer2 img{
+    width:80px;
+}
+ @media(max-width:1134px){
+ .properties {
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        width:7%;
+    }
+    .hamburger img{
+        width:70%;
+    }
+    .logo{
+        padding-top: 80px;
+        position: fixed;
+    }
+    .hamburger:hover{
+      background-color: white;
+    }
+   .the-box{
+    /* padding-left:150px; */
+    flex-direction: column;
+   }
+   .logo2{
+    padding-left: 200px;
+   }
+   .cap{
+    display: block;
+   }
+   .view{
+    display: block;
+   }
+   .box1{
+    width: 700px;
+   }
+   .box2{
+    width: 700px;
+   }
+   .box3{
+    width: 700px;
+   }
+   h3{
+    font-size: xx-large;
+    font-weight: 800;
+    padding-left: 250px;
+   }
+   .border-cover{
+    display: none;
+   }
+   .the-pioneers1{
+    padding-left: 290px;
+   ;
+   }
+   .pioneer{
+    flex-direction: column;
+   }
+   .pioneer-jide{
+    padding-right: 80px;
+    padding-bottom: 8px;
+   }
+   .pioneer-daniel{
+    padding-right: 23px;
+    padding-bottom: 8px;
+   }
+   .pioneer-joe{
+    padding-left:10px;
+    padding-bottom: 8px;
+   }
+   .gallery-text{
+    font-size: xx-large;
+    padding-left: 420px;
+    padding-top:20px;
+   }
+   .img-tutors{
+    flex-direction: column;
+   }
+   .img-tutors img{
+    width: 500px;
+   }
+   .student1{
+    flex-direction: column;
+   }
+   .student1 img{
+    width: 500px;
+   }
+   .student2{
+    flex-direction: column;
+   }
+   .student2 img{
+    width: 500px;
+   }
+   .secertary{
+    display: none;
+   }
+   .map-cover{
+    padding-left: 60px;
+    width: 700px;
+   }
+}
+ @media(max-width:500px){
+   ul li {
+        display: none;
+    }
+   .the-box{
+    padding-left:150px;
+    flex-direction: column;
+   }
+   .logo2{
+    height: 80px;
+    padding-left: 200px;
+   }
+   .logo{
+    padding-top: 80px;
+    position: fixed;
+}
+   .box1{
+    width: 700px;
+   }
+   .box2{
+    height: 80px;
+    width: 700px;
+   }
+   .box3{
+    height: 80px;
+    width: 700px;
+   }
+   h3{
+    font-size: xx-large;
+    font-weight: 800;
+    padding-left: 250px;
+   }
+   .border-cover{
+    display: none;
+   }
+   .the-pioneers1{
+    padding-left: 290px;
+   }
+   .pioneer{
+    flex-direction: column;
+   }
+   h5{
+    width: 100%;
+   }
+   .climax{
+    padding-left:0%;
+   }
+   .pioneer-jide{
+    padding-right: 40px;
+    padding-bottom: 8px;
+   }
+   .pioneer-jide img{
+    width:80%;
+   }
+   .pioneer-daniel{
+    padding-left: 50px;
+    padding-bottom: 8px;
+   }
+   .pioneer-joe{
+    padding-left:0px;
+    padding-bottom: 8px;
+   }
+   .gallery-text{
+    font-size: xx-large;
+    font-weight: 900;
+    padding-left: 420px;
+    padding-top:20px;
+   }
+   .view a{
+    display: block;
+   }
+   .img-tutors{
+    flex-direction: column;
+   }
+   .img-tutors img{
+    width: 600px;
+   }
+   .student1{
+    flex-direction: column;
+   }
+   .student1 img{
+    width: 500px;
+   }
+   .student2{
+    flex-direction: column;
+   }
+   .student2 img{
+    width: 500px;
+   }
+   .secertary{
+    display: none;
+   }
+   .map-cover{
+    padding-left: 60px;
+    width: 700px;
+   }
+}
+ @media(max-width:400px){
+   ul li {
+        display: none;
+    }
+   .the-box{
+    padding-left:150px;
+    flex-direction: column;
+   }
+   .mark{
+    background-color:transparent !important;
+   }
+   .logo2{
+    height: 80px;
+    padding-left: 200px;
+   }
+   .box1{
+    width: 700px;
+   }
+   .box2{
+    height: 80px;
+    width: 700px;
+   }
+   .box3{
+    height: 80px;
+    width: 700px;
+   }
+   h3{
+    font-size: xx-large;
+    font-weight: 800;
+    padding-left: 250px;
+   }
+   .border-cover{
+    display: none;
+   }
+   .the-pioneers1{
+    padding-left: 290px;
+   }
+   .pioneer{
+    flex-direction: column;
+   }
+   h5{
+    padding: 0%;
+   }
+   .climax{
+     padding-left: 0px;
+   }
+   .pioneer-jide{
+    padding-right: 40px;
+    padding-bottom: 8px;
+   }
+   .pioneer-jide img{
+    width:80%;
+   }
+   .pioneer-daniel{
+    padding-left: 50px;
+    padding-bottom: 8px;
+   }
+   .pioneer-joe{
+    padding-left:0px;
+    padding-bottom: 8px;
+   }
+   .gallery-text{
+    font-size: xx-large;
+    font-weight: 900;
+    padding-left: 420px;
+    padding-top:20px;
+   }
+   .view a{
+    display: block;
+   }
+   .img-tutors{
+    flex-direction: column;
+   }
+   .img-tutors img{
+    width: 600px;
+   }
+   .student1{
+    flex-direction: column;
+   }
+   .student1 img{
+    width: 500px;
+   }
+   .student2{
+    flex-direction: column;
+   }
+   .student2 img{
+    width: 500px;
+   }
+   .secertary{
+    display: none;
+   }
+   .map-cover{
+    padding-left: 60px;
+    width: 700px;
+   }
+}
+ @media(max-width:300px){
+   ul li {
+        display: none;
+    }
+   .the-box{
+    padding-left:150px;
+    flex-direction: column;
+   }
+   .logo{
+    width:120px;
+   }
+   .logo2{
+    height: 80px;
+    padding-left: 200px;
+   }
+   .box1{
+    width: 700px;
+   }
+   .box2{
+    height: 80px;
+    width: 700px;
+   }
+   .box3{
+    height: 80px;
+    width: 700px;
+   }
+   h3{
+    font-size: xx-large;
+    font-weight: 800;
+    padding-left: 250px;
+   }
+   .border-cover{
+    display: none;
+   }
+   .the-pioneers1{
+    padding-left: 290px;
+   }
+   .pioneer{
+    flex-direction: column;
+   }
+   h5{
+    padding: 0%;
+   }
+   .climax{
+     padding-left: 0px;
+   }
+   .pioneer-jide{
+    padding-right: 40px;
+    padding-bottom: 8px;
+   }
+   .pioneer-jide img{
+    width:80%;
+   }
+   .pioneer-daniel{
+    padding-left: 50px;
+    padding-bottom: 8px;
+   }
+   .pioneer-joe{
+    padding-left:0px;
+    padding-bottom: 8px;
+   }
+   .gallery-text{
+    font-size: xx-large;
+    font-weight: 900;
+    padding-left: 420px;
+    padding-top:20px;
+   }
+   .view a{
+    display: block;
+   }
+   .img-tutors{
+    flex-direction: column;
+   }
+   .img-tutors img{
+    width: 600px;
+   }
+   .student1{
+    flex-direction: column;
+   }
+   .student1 img{
+    width: 500px;
+   }
+   .student2{
+    flex-direction: column;
+   }
+   .student2 img{
+    width: 500px;
+   }
+   .secertary{
+    display: none;
+   }
+   .map-cover{
+    padding-left: 60px;
+    width: 700px;
+   }
+}
